@@ -1,27 +1,66 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Bulldozer BD-001 - Asset Overview</title>
+    <title>Asset Maintenance Dashboard</title>
     <style>
         body { font-family: Arial, sans-serif; padding: 40px; background-color: #f4f4f4; }
         h1 { color: #333; }
-        table { border-collapse: collapse; width: 60%; margin-top: 20px; background: #fff; }
-        th, td { text-align: left; padding: 10px; border-bottom: 1px solid #ccc; }
+        table { border-collapse: collapse; width: 100%; background: #fff; margin-top: 20px; }
+        th, td { text-align: left; padding: 12px; border-bottom: 1px solid #ccc; }
         th { background-color: #e8e8e8; }
     </style>
 </head>
 <body>
-    <h1>Asset: Bulldozer BD-001</h1>
+    <h1>Bulldozer Fleet Maintenance Overview</h1>
     <table>
-        <tr><th>Attribute</th><th>Value</th></tr>
-        <tr><td>Current Location</td><td>Royal Commission, Jubail</td></tr>
-        <tr><td>Billed To</td><td>Package A</td></tr>
-        <tr><td>Current Operating Hours</td><td>60 Hours</td></tr>
-        <tr><td>Next Service Due At</td><td>250 Hours</td></tr>
-        <tr><td>Based on Daily Usage</td><td>8 Hours/Day</td></tr>
-        <tr><td>Estimated Days Remaining</td><td>23 Working Days</td></tr>
-        <tr><td>Estimated Service Date</td><td>18 July 2025</td></tr>
+        <thead>
+            <tr>
+                <th>Asset ID</th>
+                <th>Current Location</th>
+                <th>Billed To</th>
+                <th>Current Hours</th>
+                <th>Service Due At</th>
+                <th>Hours Remaining</th>
+                <th>Days Remaining</th>
+                <th>Estimated Service Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+    <tr>
+        <td>BD-001</td>
+        <td>Royal Commission, Jubail</td>
+        <td>Package A</td>
+        <td>60 hrs</td>
+        <td>250 hrs</td>
+        <td>190 hrs</td>
+        <td>23 days</td>
+        <td>19 July 2025</td>
+    </tr>
+    
+    <tr>
+        <td>BD-002</td>
+        <td>Dammam Industrial Zone</td>
+        <td>Package B</td>
+        <td>120 hrs</td>
+        <td>250 hrs</td>
+        <td>130 hrs</td>
+        <td>16 days</td>
+        <td>12 July 2025</td>
+    </tr>
+    
+    <tr>
+        <td>BD-003</td>
+        <td>NEOM Site C</td>
+        <td>Package C</td>
+        <td>230 hrs</td>
+        <td>250 hrs</td>
+        <td>20 hrs</td>
+        <td>2 days</td>
+        <td>28 June 2025</td>
+    </tr>
+    
+        </tbody>
     </table>
 </body>
 </html>
